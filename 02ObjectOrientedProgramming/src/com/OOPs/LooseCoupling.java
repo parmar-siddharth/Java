@@ -28,9 +28,8 @@ public class LooseCoupling {
 
 //        Courses courses = new Courses(new SystemDesign());
 //        courses.buyTheCourse();
-        IDelivery blueDart = new BlueDart();
-        Delivery d = new Delivery(blueDart);
-//        d.setDelivery(blueDart);
-        d.TotalAmount(500);
+        Delivery d = new Delivery(new Ekart());
+        d.TotalAmount(5000);
+
     }
 }
