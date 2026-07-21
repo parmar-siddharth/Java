@@ -13,8 +13,6 @@ public class Lambda {
 
         // we can implement an functional interface using 3 ways.
 
-        // First way ====>0
-
         Alien alien = () -> {
             System.out.println("without creating");
         };
