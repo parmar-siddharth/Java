@@ -36,6 +36,15 @@ public class string {
         // no changes made because strings ae immutable
         // string are immutable in java
 
+        String s = "abc";
+        int reverseDegree = 0;
+        int index = 1;
+        for(char chr: s.toCharArray()){
+            int digit = 123 - chr;
+            reverseDegree += index * digit;
+            index++;
+        }
+        System.out.println(reverseDegree);
 
     }
 }

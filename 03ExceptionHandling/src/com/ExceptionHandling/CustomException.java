@@ -2,6 +2,7 @@ package com.ExceptionHandling;
 
 import java.util.Scanner;
 class InvalidCustomerException extends Exception{
+
     InvalidCustomerException(String msg){
         super(msg);
     }

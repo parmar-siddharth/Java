@@ -1,6 +1,7 @@
 package com.collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class LaunchArrayList
 {
@@ -22,8 +23,10 @@ public class LaunchArrayList
 		al2.addAll(al1);
 //		al2.addAll(1,al1);
 		System.out.println(al2);
-		
-	
+		System.out.println(al1.toArray());
+		Object[] arr = al1.toArray();
+		System.out.println(Arrays.toString(arr));
+
 	}
 
 }
